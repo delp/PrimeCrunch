@@ -14,7 +14,7 @@ int main()
   int number = 3;
   while(true)
     {
-      bool isPrime = true;;
+      bool isPrime = true;
       for(int i = 2; i <= sqrt(number); i++)
 	{
 	  if(number % i == 0)
