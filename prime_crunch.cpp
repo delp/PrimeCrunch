@@ -8,7 +8,6 @@ using namespace std;
 
 int main()
 {
-  cout << "alex and buddy 4 ever <3" << endl;
   ofstream datafile;
   datafile.open("primes.txt", ios::app);
   datafile << 2 << endl;
